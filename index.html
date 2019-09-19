@@ -1,0 +1,894 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>База отдыха "Босиком"</title>
+
+    <!-- Bootstrap -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+    <link href="assets/css/custom.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <!--навбар-->
+    <header>
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container-fluid">
+                <!--    навбар для мобильных версий-->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsible" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <!--    навбар для десктопа-->
+                <!--   левая часть-->
+                <div id="collapsible" class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav navbar-left RobotoMedium">
+                        <li><a class="active" href="#">Коттеджи</a></li>
+                        <li><a href="#">Мероприятия</a></li>
+                        <li><a href="#">Пляж</a></li>
+                        <li><a href="#">Услуги</a></li>
+                        <li><a href="#">Галерея</a></li>
+                        <li><a href="#">О базе</a></li>
+                        <li><a href="#">Контакты</a></li>
+                    </ul>
+                    <!--правая часть-->
+                    <ul class="nav navbar-nav navbar-right white-text">
+                        <li class="call-to-action">
+                            <p class="white-text RobotoMedium call">Позвоните и проконсультируйтесь:</p>
+                            <a href="modal-form" class="phone">
+                                <span class="white-text RobotoBold">+7 (495) 208-08-08</span>
+                                <p class="white-text RobotoThin call_now">Позвонить</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://facebook.com">
+                                <div class="brown rounded">
+                                    <div class='sprite sprite-facebook'></div>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://twitter.com">
+                                <div class="brown rounded">
+                                    <div class='sprite sprite-twitter'></div>
+                                </div>
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <!--    первый экран-->
+        <div class="wrapper clearfix">
+            <div class="section section-header">
+                <!--           картинка бэкграунда-->
+                <img src="assets/img/main_page/section_pictures/first_screen.jpg" alt="" class="img-responsive">
+                <div class="container">
+                    <div class="content center-block">
+                        <!--                   логотип-->
+                        <img src="assets/img/main_page/logo.png" alt="" class="logo">
+                        <h1 class="RobotoBold">База отдыха «Босиком»</h1>
+                        <p class="adWord blue-text RobotoThin">Свежий воздух и большая вода ближе, чем вы думаете</p>
+                        <a href="#">
+                            <p class="adWord_button black-text RobotoThin">На Истринском водохранилище</p>
+                        </a>
+                        <a href="#">
+                            <div class="green rounded">
+                                <div class="sprite sprite-arrow-down"></div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--    секция агрументов-->
+        <div class="section section-argues">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="flex-row three-block">
+                        <div class="col-xs-12 col-sm-12 col-md-4">
+                            <div class="argue">
+                                <p class="black-text RobotoBold">Хотите вырваться из безумного города?</p>
+                                <p class="brown-text RobotoThin">Вас ждет тишина и покой
+                                    <br/>на 3,2 гектарах водно-лесного массива</p>
+                                <ul>
+                                    <li class="RobotoThin"><div class="sprite sprite-plus"></div> 2-этажные коттеджи, комфортно удаленные друг от друга</li>
+                                    <li class="RobotoThin"><div class="sprite sprite-plus"></div> Полностью охраняемая территория</li>
+                                    <li class="RobotoThin"><div class="sprite sprite-plus"></div> Пляж с кристально чистым песком</li>
+                                    <li class="RobotoThin"><div class="sprite sprite-plus"></div> Бани, беседки, мангалы, Wi-Fi на всей территории</li>
+                                    <li class="RobotoThin"><div class="sprite sprite-plus"></div> Все для рыбалки: от спиннингов до катеров</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-4">
+                            <div class="gallery_link">
+                                <img src="assets/img/main_page/section_pictures/gallery_img.jpg" />
+                                <div class="gallery_link_caption">
+                                    <a href="#">
+                                        <p class="RobotoMedium white-text">Перейти в галерею</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-4">
+                            <div class="brown cottage_counter">
+                                <div class="image">
+                                    <div class='sprite sprite-house'></div>
+                                </div>
+                                <p class="white-text RobotoThin">На ближайшие даты осталось:</p>
+                                <p class="white-text RobotoThin">
+                                    <span class="huge">6</span> свободных коттеджей</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex-row four-block">
+                        <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+                            <div class="country_house">
+                                <img src="assets/img/main_page/section_pictures/wooden_house.jpg" />
+                                <div class="country_house_caption">
+                                    <a href="#">
+                                        <p class="RobotoMedium white-text">Дача на лето</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+                            <div class="fishing grey">
+                                <div class="image">
+                                    <div class='sprite sprite-fishing-ico'></div>
+                                </div>
+                                <p class="black-text RobotoMedium">Рыбалка</p>
+                            </div>
+                        </div>
+                        <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+                            <div class="triumph">
+                                <img src="assets/img/main_page/section_pictures/triumph_table.jpg" />
+                                <div class="triumph_caption">
+                                    <a href="#">
+                                        <p class="RobotoMedium white-text">Торжества, свадьбы, юбилеи</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+                            <div class="knowledge grey">
+                                <div class="image">
+                                    <div class='sprite sprite-knowledge'></div>
+                                </div>
+                                <p class="black-text RobotoMedium">Тимбилдинги
+                                    <br>тренинги
+                                    </br>корпоративы
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--    схема-->
+        <div class="section section-scheme">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="scheme-header clearfix">
+                        <div class="col-xs-2 col-sm-w col-md-1 col-lg-1 pull-left">
+                            <div class='sprite sprite-scheme-header-left pull-left'></div>
+                        </div>
+                        <div class="col-xs-8 col-sm-8 col-md-10 col-lg-10">
+                            <h2 class="black-text RobotoMedium">Гектары отдыха</h2>
+                        </div>
+                        <div class="col-xs-2 col-sm-2 col-md-1 col-lg-1 pull-right">
+                            <div class='sprite sprite-scheme-header-right pull-right'></div>
+                        </div>
+                    </div>
+                    <div class="col xs-12 col-sm-12 col-md-12 col-lg-12 scheme">
+                        <img src="assets/img/main_page/section_pictures/scheme.jpg" alt="" class="img-responsive">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--    коттеджи-->
+        <div class="section section-cottages">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="cottages-header">
+                        <div class="col-xs-12 col-sm-12 col-md-8 col-md-offset-2 col-lg-8 col-lg-offset-2">
+                            <h2 class="black-text RobotoMedium">Коттеджи базы «Босиком»</h2>
+                            <p class="black-text RobotoThin">На территории расположено 10 коттеджей различной вместимости (от 4 до 8 человек),
+                                <br> дом VIP с сауной и комнатой для сопровождающего персонала.
+                                <br>Также к вашим услугам бани и мангальные беседки.</p>
+                        </div>
+                           <div class='sprite sprite-section-cottages-left pull-left'></div>
+                            <div class='sprite sprite-section-cottages-right pull-right'></div>
+                    </div>
+                </div>
+                <!--            ряды коттеджей-->
+                <div class="flex-row cottages-row">
+                    <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+                        <a href="#">
+                            <div class="cottage_header">
+                                <div class="process brown"></div>
+                                <div class="col-xs-12 col-md-7 col-lg-7 pull-left">
+                                    <div class="cottage_name">
+                                        <p class="brown-text RobotoMedium">Коттедж № 1</p>
+                                    </div>
+                                </div>
+                                <div class="col-xs-12 col-md-5 col-lg-5 pull-right">
+                                    <div class="places">
+                                        <p class="black-text RobotoMedium">4 места</p>
+                                    </div>
+                                    <div class="brown rounded link pull-right">
+                                        <div class='sprite sprite-link'></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="cottage_photo">
+                                <img src="assets/img/main_page/section_pictures/picture4.jpg" alt="">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+                        <a href="#">
+                            <div class="cottage_header">
+                                <div class="process brown"></div>
+                                <div class="col-xs-12 col-md-7 col-lg-7 pull-left">
+                                    <div class="cottage_name">
+                                        <p class="brown-text RobotoMedium">Коттедж № 2</p>
+                                    </div>
+                                </div>
+                                <div class="col-xs-12 col-md-5 col-lg-5 pull-right">
+                                    <div class="places">
+                                        <p class="black-text RobotoMedium">6 мест</p>
+                                    </div>
+                                    <div class="brown rounded link pull-right">
+                                        <div class='sprite sprite-link'></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="cottage_photo">
+                                <img src="assets/img/main_page/section_pictures/picture5.jpg" alt="">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+                        <a href="#">
+                            <div class="cottage_header">
+                                <div class="process brown"></div>
+                                <div class="col-xs-12 col-md-7 col-lg-7 pull-left">
+                                    <div class="cottage_name">
+                                        <p class="brown-text RobotoMedium">Коттедж № 3</p>
+                                    </div>
+                                </div>
+                                <div class="col-xs-12 col-md-5 col-lg-5 pull-right">
+                                    <div class="places">
+                                        <p class="black-text RobotoMedium">8 мест</p>
+                                    </div>
+                                    <div class="brown rounded link pull-right">
+                                        <div class='sprite sprite-link'></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="cottage_photo">
+                                <img src="assets/img/main_page/section_pictures/picture7.jpg" alt="">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+                        <a href="#">
+                            <div class="cottage_header">
+                                <div class="process brown"></div>
+                                <div class="col-xs-12 col-md-7 col-lg-7 pull-left">
+                                    <div class="cottage_name">
+                                        <p class="brown-text RobotoMedium">Коттедж № 4 VIP</p>
+                                    </div>
+                                </div>
+                                <div class="col-xs-12 col-md-5 col-lg-5 pull-right">
+                                    <div class="places">
+                                        <p class="black-text RobotoMedium">8 мест</p>
+                                    </div>
+                                    <div class="brown rounded link pull-right">
+                                        <div class='sprite sprite-link'></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="cottage_photo">
+                                <img src="assets/img/main_page/section_pictures/picture6.jpg" alt="">
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <!-- flex-row four-block-->
+                <!--                кнопка смотреть все-->
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                        <div class="cottages_link grey">
+
+                            <div class='sprite sprite-cottages-link-left pull-left'></div>
+
+                            <div class='sprite sprite-cottages-link-center'></div>
+
+                            <div class='sprite sprite-cottages-link-right pull-right'></div>
+
+                            <p class="black-text RobotoMedium"><a class="black-text" href="#">Смотреть все коттеджи</a></p>
+
+
+                        </div>
+                    </div>
+                </div>
+                <div class="flex-row">
+                    <div class="advantages-row">
+                        <div class="col-xs-12 col-sm-12 col-md-4">
+                            <div class="advantages">
+                                <img src="assets/img/main_page/section_pictures/advantages_1.png" />
+                                <div class="advantages_caption">
+                                    <a href="#">
+                                        <p class="RobotoMedium white-text">Воздух, которым хочется дышать</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-4">
+                            <div class="advantages">
+                                <img src="assets/img/main_page/section_pictures/advantages_2.png" />
+                                <div class="advantages_caption">
+                                    <a href="#">
+                                        <p class="RobotoMedium white-text">неповторимые пейзажи</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-4">
+                            <div class="advantages">
+                                <img src="assets/img/main_page/section_pictures/advantages_3.png" />
+                                <div class="advantages_caption">
+                                    <a href="#">
+                                        <p class="RobotoMedium white-text">комфорт и общение в кругу друзей</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section section-question">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="question-header clearfix">
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                            <h2 class="black-text RobotoMedium">Хотите выбрать наиболее подходящий коттедж?</h2>
+                            <p class="black-text RobotoThin">Задайте свой вопрос, мы поможем</p>
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-4 col-md-offset-4 col-lg-4 col-lg-offset-4 daria">
+                            <div class="specialist">
+                                <img src="assets/img/main_page/photos/spec_photo.jpg" alt="">
+                            </div>
+                            <p class="black-text RobotoThin">Напишите специалисту базы отдыха «Босиком»
+                                <br>
+                                <a href="#"><span class="brown-text">Дарье Шумилиной</span></a>, она с радостью вам ответит
+                            </p>
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-6 col-md-offset-3 col-lg-6 col-lg-offset-3">
+                            <div class="contact_form flex-column">
+                                <div class="col-xs-12 col-sm-12 col-md-8 col-md-offset-2 col-lg-8 col-lg-offset-2">
+                                    <div class="sprite sprite-leaf"></div>
+                                    <div class="sprite sprite-grass"></div>
+                                    <div class="sprite sprite-clover"></div>
+                                    <div class="sprite sprite-bean"></div>
+                                    <div class="input_text">
+                                        <input type="text" class="form-control" placeholder="Укажите пердполагаемую дату заезда, количество друзей
+и свои особые пожелания">
+                                    </div>
+                                    <div class="input_phone">
+                                        <input type="text" class="form-control" placeholder="Оставьте телефон для обратной связи">
+                                    </div>
+                                </div>
+                                <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 center-block">
+                                    <div class="send">
+                                        <a class="black-text" href="#" role="button" action="#send">
+                                            <p class="black-text RobotoMedium">
+                                                Задать вопрос
+                                            </p>
+                                        </a>
+                                        <div class="sprite sprite-flight-ico"></div>
+                                    </div>
+                                </div>
+                                <div class="col-xs-12 col-sm-12 col-md-6 col-md-offset-3 col-lg-6 col-lg-offset-3">
+                                    <div class="form_or_call">
+                                        <p class="black-text RobotoThin">Заполните форму или позвоните по телефону:
+                                            <br>
+                                            <span>+7 (495) 208-08-08</span></p>
+                                        <div class="col-xs-12 col-sm-12 col-md-4 col-md-offset-4 col-lg-4 col-lg-offset-4">
+                                            <a href="tel:+74952080808">
+                                                <p class="brown-text RobotoMedium callback">Позвонить</p>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--    баннеры и антон-->
+        <div class="section section-banners">
+            <div class="container-fluid">
+                <div class="row">
+                        <div class="banners">
+                            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                                <div class="banner grey">
+                                    <a href="#"></a>
+                                    <div class="image">
+                                        <div class="sprite sprite-call"></div>
+                                        <p class="black-text RobotoMedium">Акция</p>
+                                    </div>
+                                    <p class="black-text RobotoMedium">Раннее бронирование</p>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                                <div class="banner">
+                                    <a href="#">
+                                        <div class="ribbon blue">
+                                            <p class="white-text RobotoMedium ribbons">Дача на лето</p>
+                                        </div>
+                                        <img src="assets/img/main_page/section_pictures/wooden_house.jpg" />
+                                        <div class="banner_caption">
+                                            <p class="RobotoThin white-text">Со скидкой 5%
+                                                <br> на весь срок пребывания</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                                <div class="banner">
+                                    <a href="#">
+                                        <img src="assets/img/main_page/section_pictures/rest_1_day.jpg" />
+                                        <div class="ribbon blue">
+                                            <p class="white-text RobotoMedium ribbons">Акция</p>
+                                        </div>
+                                        <div class="banner_caption">
+                                            <p class="RobotoThin white-text">Один день отдыха в подарок</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                                <div class="banner grey">
+                                    <a href="#">
+                                        <div class="image">
+                                            <div class="sprite sprite-cake"></div>
+                                            <p class="black-text RobotoMedium">Акция</p>
+                                        </div>
+                                        <p class="black-text RobotoMedium">Скидка 15% именинникам</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                        <div class="head_speech brown">
+                            <div class="col-xs-12 col-sm-12 col-md-8 col-md-offset-2 col-lg-8 col-lg-offset-2">
+                                <div class="speech">
+                                    <div class="head">
+                                        <img src="assets/img/main_page/photos/anton.jpg" alt="">
+                                    </div>
+                                    <p class="white-text name RobotoThin">Антон Сиднев
+                                        <br>
+                                        <span>Управляющий базой «Босиком»</span>
+                                        <div class="sprite sprite-bracket-open"></div>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-sm-12 col-md-6 col-md-offset-4 col-lg-6 col-lg-offset-4">
+                                <div class="words">
+                                    <div class="white line"></div>
+                                    <p class="white-text RobotoThin">Вам хочется вырваться из этого безумного города с его стрессами, вечными пробками, гулом и загазованностью?
+                                        <br> Вам хочется по-настоящему отдохнуть в тихом, уютном месте? Может быть, у Вас приближается приятное событие, день рождения, свадьба, Вы хотите отпраздновать Новый год? База «Босиком» дарит Вам эту возможность! Здесь все проникнуто спокойствием, ни коптящих труб, ни шумных дорог поблизости. Воздух необыкновенно прозрачен, пахнет хвоей. И это все — меньше, чем в часе езды от Москвы!</p>
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-sm-12 col-md-8 col-md-offset-2 col-lg-8 col-lg-offset-2">
+                                <div class="contacts">
+                                    <p class="brown-text">Чтобы узнать подробности, позвоните мне лично <a class="brown-text" href="+74957899229">(495) 789-92-29</a>
+                                        <br> Или напишите:
+                                        <a href="mailto:rest@bosikom.ru"></a>rest@bosikom.ru </p>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--    отличные выходные-->
+        <div class="section section-weekend">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                        <div class="video">
+                           <div class="sprite sprite-leaf-weekend"></div>
+                            <a href="#">
+                                <p class="black-text RobotoMedium pull-right">смотреть видео</p>
+                            </a>
+                            <a href="#">
+                                <div class="brown play_button">
+                                    <div class="sprite sprite-play-control"></div>
+                                </div>
+                            </a>
+                            <div class="col-xs-12 col-sm-12 col-md-10 col-md-offset-2 col-lg-10 col-lg-offset-2">
+                                <img src="assets/img/main_page/section_pictures/motor_boat.jpg" alt="" class="img-responsive">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                        <div class="video_description">
+                            <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
+                                <h2 class="black-text RobotoMedium">Отличные выходные<br>на природе</h2>
+                                <p class="black-text RobotoThin">Наша команда на полном серьезе утверждает, что полноценный отдых может быть только за пределами города! Лишь отдых на природе позволяет работающему жителю мегаполиса по-настоящему расслабиться, забыть о каждодневных испытаниях, которыми так богаты будни: пробки, переговоры, подорожания, боязнь потерять работу… Знакомая ситуация, не так ли? Только на лоне природы горожане наконец-то способны отпустить ситуацию и с радостью наполниться энергией, силой. Отдых на природе в Подмосковье получится удачным и незабываемым, если будут соблюдены определенные условия: важно отключить мобильные телефоны, оставить дома планшеты и ноутбуки, пригласить с собой только самых надежных и близких друзей, способных разделить с вами радость общения с лесом.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="round"><img src="assets/img/main_page/section_pictures/balcony.jpg" alt=""></div>
+            <div class="round"><img src="assets/img/main_page/section_pictures/barbeque.jpg" alt=""></div>
+            <div class="round huge"><img src="assets/img/main_page/section_pictures/fishing.jpg" alt=""></div>
+        </div>
+        <!--    отзывы-->
+        <div class="section section-feedback">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-md-offset-3 col-lg-6 col-lg-offset-3">
+                        <div class="description">
+                            <p class="black-text RobotoThin">Только подумайте: комфортный домик среди сосен с чистейшей водой. Лучшего места отдыха от городской суеты в относительной близости от Москвы, вам просто не найти. Хотите снять домик в аренду? База отдыха «Босиком» готова предоставить вам сразу несколько вариантов размещения: для большой компании друзей или коллег по работе, для семьи с детьми или для молодоженов. Помните, что работа по организации вашего досуга для нас всегда в радость. Для нас не существует праздников и выходных, мы рады принимать гостей в любое время года.</p>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-md-offset-3 col-lg-6 col-lg-offset-3">
+                        <div class="feedback">
+                            <h2 class="black-text RobotoMedium">Отзывы наших гостей</h2>
+                        </div>
+                    </div>
+                    <div class="col-xs-2 col-md-2 col-lg-2">
+                        <div class="feedback_send">
+                            <a href="#" role="button" action="#feedback_send">
+                                <p class="black-text RobotoMedium">Оставить отзыв</p>
+                            </a>
+                            <div class="sprite sprite-flight-ico"></div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-8 col-md-offset-2 col-lg-8 col-lg-offset-2">
+                        <div class="feedback_written">
+                            <!--                        отзывы, блоки 1-3. переместить, если будут применяться скрипты-->
+                            <div class="col-xs-12 col-md-6 col-lg-6">
+                                <div class="col-xs-12">
+                                    <div class="feedbacks">
+                                        <div class="col-xs-3">
+                                            <div class="round">
+                                                <img src="assets/img/main_page/photos/roman.jpg" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="col-xs-9">
+                                            <p class="black-text RobotoThin feedb">Всем доброго времени суток! Едем из этого прекрасного места для отдыха! Отдыхали с 15.08 по 22.08 с детьми ( мальчик 4х лет и девочка 10ти лет). Понравилось Всё и всем!!!! Начнем с сервиса- к нашим услугам было предложено все о чем можно только подумать. Мебель новая, удобная, ничего лишнего и в то же время мы не испытывали нехватки чего-либо. Замечательная территория, ухоженная, чистая!</p>
+                                        </div>
+                                        <div class="col-xs-7 col-xs-offset-3">
+                                            <p class="brown-text RobotoThin author">Роман Сиднев, бизнесмен
+                                                <br>Отдыхал 12.03.2016 - 22.03.2016</p>
+                                        </div>
+                                        <div class="col-xs-2">
+                                            <div class="sprite sprite-bracket"></div>
+                                        </div>
+                                        <div class="col-xs-12 dashed"></div>
+                                    </div>
+                                </div>
+
+                                <div class="col-xs-12">
+                                    <div class="feedbacks">
+                                        <div class="col-xs-3">
+                                            <div class="round">
+                                                <img src="assets/img/main_page/photos/anton_b.jpg" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="col-xs-9">
+                                            <p class="black-text RobotoThin feedb">Корпоративно посетили базу 01.05-02.05.2016. Приятное впечатление от прекрасно обустроенной территории. Отдельное спасибо Владимиру Федоровичу за решение неожиданно возникших проблем. Приятно общаться с деловым и серьезным человеком.</p>
+                                        </div>
+                                        <div class="col-xs-7 col-xs-offset-3">
+                                            <p class="brown-text RobotoThin author">Антон Белкин, бизнесмен
+                                                <br>Отдыхал 12.03.2016 - 22.03.2016</p>
+                                        </div>
+                                        <div class="col-xs-2">
+                                            <div class="sprite sprite-bracket"></div>
+                                        </div>
+                                        <!--                            <div class="col-xs-12 dashed"></div>-->
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!--                        блоки 2-4 отзывы. переместить в нужном порядке, сменить классы 12 на 6-->
+
+                            <div class="col-xs-12 col-md-6 col-lg-6">
+
+                                <div class="col-xs-12">
+                                    <div class="feedbacks">
+                                        <div class="col-xs-3">
+                                            <div class="round">
+                                                <img src="assets/img/main_page/photos/elena.jpg" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="col-xs-9">
+                                            <p class="black-text RobotoThin feedb">Всем доброго времени суток! Едем из этого прекрасного места для отдыха! Отдыхали с 15.08 по 22.08 с детьми ( мальчик 4х лет и девочка 10ти лет). Понравилось Всё и всем!!!! Начнем с сервиса- к нашим услугам было предложено все о чем можно только подумать. Мебель новая, удобная, ничего лишнего и в то же время мы не испытывали нехватки чего-либо. Замечательная территория, ухоженная, чистая! Всё было просто замечательно, и я осталась довольна так что осталась довольна на всю жизнь.</p>
+                                        </div>
+                                        <div class="col-xs-7 col-xs-offset-3">
+                                            <p class="brown-text RobotoThin author">Елена Верховина, сдужащая
+                                                <br>Отдыхала 25.03.2016 - 28.03.2016</p>
+                                        </div>
+                                        <div class="col-xs-2">
+                                            <div class="sprite sprite-bracket"></div>
+                                        </div>
+                                        <div class="col-xs-7 col-xs-offset-3 dashed"></div>
+                                    </div>
+                                </div>
+
+                                <div class="col-xs-12">
+                                    <div class="feedbacks">
+                                        <div class="col-xs-3">
+                                            <div class="round">
+                                                <img src="assets/img/main_page/photos/antonina.jpg" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="col-xs-9">
+                                            <p class="black-text RobotoThin feedb">Ухоженная территория,доброжелательный персонал,повара готовят очень вкусно. В коттеджах есть всё — кондиционер, отопление,мини-кухня, душ… Мы с мужем ни минуты не пожалели,что приехали сюда! Искупаться погода не позволила,но порыбачили от души!</p>
+                                        </div>
+                                        <div class="col-xs-7 col-xs-offset-3">
+                                            <p class="brown-text RobotoThin author">Антонина Симонова, бизнесмен
+                                                <br>Отдыхал 12.03.2016 - 22.03.2016</p>
+                                        </div>
+                                        <div class="col-xs-2">
+                                            <div class="sprite sprite-bracket"></div>
+                                        </div>
+                                    </div>
+                                    <!--                            <div class="col-xs-12 dashed"></div>-->
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-md-12 col-lg-12">
+                        <div class="read_more">
+                            <a href="#">
+                                <p class="black-text RobotoMedium">читать все отзывы</p>
+                            </a>
+                            <div class="sprite sprite-talk-icon"></div>
+                        </div>
+                        <div class="sprite sprite-stub pull-left"></div>
+                           <div class="sprite sprite-hedgehog pull-right"></div>
+                    </div>
+            <div class="sprite sprite-tree"></div>
+                </div>
+            </div>
+        </div>
+        <!--    новости базы-->
+        <div class="section section-news">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-xs-12 col-md-12 col-lg-12">
+                        <div class="col-xs-6">
+                            <h2 class="black-text RobotoMedium">Новости базы</h2>
+                        </div>
+                        <div class="col-xs-6">
+                            <div class="all_news">
+                                <a href="#">
+                                    <p class="black-text RobotoMedium">Читать все новости</p>
+                                </a>
+                                <div class="sprite sprite-newspaper"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--блоки новостей-->
+                    <div class="news_blocks">
+                        <!--                    блок 1-->
+                        <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+                            <div class="news">
+                                <div class="col-xs-12">
+                                    <div class="date">
+                                        <p class="black-text RobotoMedium">5.06</p>
+                                    </div>
+                                </div>
+                                <div class="col-xs-12">
+                                    <div class="image">
+                                        <img src="assets/img/main_page/section_pictures/water_bike.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-xs-12">
+                                    <div class="description">
+                                        <p class="black-text RobotoMedium">Чем примечательная природа Истринского водохранилища?</p>
+
+                                        <p class="black-text RobotoThin">Жители Москвы и области имеют превосходную возможность недорого отдыхать, не отправляясь в далёкое путешествие. Одним из наилучших мест для отдыха на природе является ...</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--блок 2-->
+                        <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+                            <div class="news">
+                                <div class="col-xs-12">
+                                    <div class="date">
+                                        <p class="black-text RobotoMedium">6.09</p>
+                                    </div>
+                                </div>
+                                <div class="col-xs-12">
+                                    <div class="image">
+                                        <img src="assets/img/main_page/section_pictures/house.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-xs-12">
+                                    <div class="description">
+                                        <p class="black-text RobotoMedium">Корпоративная спартакиада на базе отдыха «Босиком»</p>
+
+                                        <p class="black-text RobotoThin">Планируя проведение корпоративной спартакиады, организаторы с ужасом представляют, сколько работы им предстоит проделать ...</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--блок 3-->
+                        <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+                            <div class="news">
+                                <div class="col-xs-12">
+                                    <div class="date">
+                                        <p class="black-text RobotoMedium">4.12</p>
+                                    </div>
+                                </div>
+                                <div class="col-xs-12">
+                                    <div class="image">
+                                        <img src="assets/img/main_page/section_pictures/roasted_meat.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-xs-12">
+                                    <div class="description">
+                                        <p class="black-text RobotoMedium">Чем примечательная природа Истринского водохранилища?</p>
+
+                                        <p class="black-text RobotoThin">Жители Москвы и области имеют превосходную возможность недорого отдыхать, не отправляясь в далёкое путешествие. Одним из наилучших мест для отдыха на природе является ...</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--блок 4-->
+                        <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+                            <div class="news">
+                                <div class="col-xs-12">
+                                    <div class="date">
+                                        <p class="black-text RobotoMedium">3.06</p>
+                                    </div>
+                                </div>
+                                <div class="col-xs-12">
+                                    <div class="image">
+                                        <img src="assets/img/main_page/section_pictures/strawberry.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-xs-12">
+                                    <div class="description">
+                                        <p class="black-text RobotoMedium">Теперь на нашей базе можно сразиться в лазертаг – тактическую игра для отдыхающих</p>
+
+                                        <p class="black-text RobotoThin">Когда в России появился пейнтбол, многие всерьез увлеклись этой игрой. Однако вскоре его популярность оттеснил лазертаг ...</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--    о базе-->
+        <div class="section section-about">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                        <div class="about">
+                            <div class="col-xs-8 col-xs-offset-2">
+                                <h2 class="brown-text RobotoMedium">О базе</h2>
+                                <div class="brown line"></div>
+                                <p class="black-text RobotoThin">База отдыха «Босиком» встретит вас теплотой, атмосферой надёжности. Здесь вы почувствуете себя как дома. Мягкое, радующее глаз оформление номеров, простота обстановки и в то же время наличие всего необходимого для безмятежного времяпрепровождения обеспечат вам лучший отдых. База территориально изолирована, что особенно удобно при проведении на её территории тренингов, выездных семинаров или мастер-классов. В общей сложности на базе можно разместить до 100 гостей без использования дополнительных спальных мест. А окружение - огромный лесной и водный массив - позволит гостям почувствовать себя настоящими единомышленниками, которых объединяют не только общее дело, но и незабываемый досуг!</p>
+                            </div>
+                       <div class="sprite sprite-branch-top-png"></div>
+                       <div class="sprite sprite-branch-bottom"></div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                       <div class="sprite sprite-leaf-foot"></div>
+                        <div class="about-image">
+                            <img src="assets/img/main_page/section_pictures/about_picture.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--    карта-->
+        <div class="section section-map">
+            <div class="col xs-12 col-sm-12 col-md-12 col-lg-12">
+                <div class="map">
+                    <img src="assets/img/main_page/section_pictures/map.jpg" alt="" class="img-responsive">
+                </div>
+            </div>
+            <div class="placeholder">
+                <img src="assets/img/main_page/sprite/marker.png" alt="">
+            </div>
+            <div class="round blue">
+                <p class="white-text RobotoMeduim">Как нас найти</p>
+            </div>
+        </div>
+    </main>
+    <!--    подвал-->
+    <footer>
+        <div class="section section-footer grey">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="flex-row">
+                        <div class="col-xs-12 col-md-4 col-lg-4">
+                            <p class="black-text RobotoMedium">© База отдыха «Босиком». Все права защищены</p>
+                            <p class="black-text RobotoThin">Московская обл., Истринский р-он, пос. Гидроузла им. Куйбышева</p>
+                        </div>
+                        <div class="col-xs-12 col-md-2 col-lg-2">
+                            <p class="black-text RobotoThin">Позвоните и проконсультируйтесь: </p>
+                            <p class="black-text RobotoThin">+7 (495) 208-08-08
+                                <a href="#">
+                                    <span class="brown-text">Позвонить</span>
+                                </a>
+                            </p>
+                        </div>
+                        <div class="col-xs-12 col-md-2 col-lg-2">
+                            <a href="mailto:bazabosikom@gmail.com">
+                                <p class="brown-text RobotoThin">
+                                    bazabosikom@gmail.com
+                                </p>
+                            </a>
+                        </div>
+                        <div class="col-xs-12 col-md-1 col-lg-1">
+                            <div class="col-xs-6">
+                                <a href="http://facebook.com">
+                                    <div class="brown rounded">
+                                        <div class='sprite sprite-facebook'></div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-xs-6">
+                                <a href="http://twitter.com">
+                                    <div class="brown rounded">
+                                        <div class='sprite sprite-twitter'></div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="col-xs-12 col-md-2 col-md-offset-1 col-lg-2 col-lg-offset-1">
+
+                            <p class="black-text RobotoThin pull-right">Разработка сайта: <a href="#"><span class="brown-text">Студия 404</span></a></p>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="assets/js/jquery-2.2.1.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="assets/js/bootstrap.js"></script>
+</body>
+
+</html>
